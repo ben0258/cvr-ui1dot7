@@ -299,15 +299,17 @@ h1 {
 }
 
 .friend .online-state {
-    position: absolute;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    margin: 0.5em;
-
-    z-index: 1;
-
-    background: #cc0000;
+    z-index: 0;
+    width: 9em;
+    height: 7em;
+    mask-image: url("gfx/HexagonMask.svg");
+    mask-size: contain;
+    mask-position: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #7c0000;
 }
 
 .friend .online-state.online {
@@ -320,6 +322,10 @@ h1 {
 
 .friend .content-image {
     bottom: 5em;
+    mask-image: url("gfx/HexagonMask.svg");
+    mask-size: contain;
+    mask-position: center;
+    align-self: center;
 }
 
 .content-cell-content {
