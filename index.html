@@ -130,6 +130,12 @@
 							<img src="gfx/image.svg">
 							Mirror</div>
                     </div>
+                    <div id="empty-home-button-block" class="btn-row-wrapper actions">
+                        <div class="action-btn button" style="visibility: hidden;">
+                            <img src="gfx/mouse.svg">
+                            Empty
+                        </div>
+                    </div>
 					<div class="content-caption">Panic Buttons</div>
 					<div class="content-profile transp-home-bg">
 						<div class="button-root">
@@ -3795,19 +3801,17 @@
         <h1>World: [worldName]</h1>
         <div class="close-btn button" onclick="closeDetailView(this)" data-viewid="world-detail">Back</div>
         <div class="content-world-information">
-            <div class="content-caption">World information</div>
             <div class="scroll-content">
+                <div class="content-caption">Description</div>
+                <div class="cell-value data-description">[description]</div>
+                <div class="content-caption">World Information</div>
                 <div class="row-wrapper">
-                    <div class="cell-name">Worldname:</div>
-                    <div class="cell-value data-worldName">[worldName]</div>
+                    <div class="cell-name">Name:</div>
+                    <div class="cell-value data-worldName">{worldName]</div>
                 </div>
                 <div class="row-wrapper world-fileSize">
-                    <div class="cell-name">File size:</div>
+                    <div class="cell-name">Size:</div>
                     <div class="cell-value data-fileSize">[fileSize]</div>
-                </div>
-                <div class="row-wrapper">
-                    <div class="cell-name">Description:</div>
-                    <div class="cell-value data-description">[description]</div>
                 </div>
                 <div class="row-wrapper">
                     <div class="cell-name">Admin Tags:</div>
@@ -3818,11 +3822,11 @@
                     <div class="cell-value data-safetyTags">[safetyTags]</div>
                 </div>
                 <div class="row-wrapper world-uploaded">
-                    <div class="cell-name">Uploaded at:</div>
+                    <div class="cell-name">Uploaded:</div>
                     <div class="cell-value data-uploaded">[uploaded]</div>
                 </div>
                 <div class="row-wrapper world-updated">
-                    <div class="cell-name">Last Update:</div>
+                    <div class="cell-name">Last update:</div>
                     <div class="cell-value data-updated">[updated]</div>
                 </div>
                 <div class="row-wrapper world-legacy hidden">
@@ -4484,9 +4488,9 @@
         </div>
 
         <div class="avatar-maininformation">
-            <p style="margin-bottom: 0;">Description:</p>
+            <div class="content-caption">Description</div>
             <p class="description">[Description]</p>
-            <p style="margin-bottom: 0;">Tags:</p>
+            <div class="content-caption">Safety Tags</div>
             <p class="tags">Avatar Tags</p>
         </div>
 
@@ -4522,16 +4526,16 @@
         </div>
 
         <div class="prop-maininformation">
-            <p style="margin-bottom: 0;">Description:</p>
+            <div class="content-caption">Safety Tags</div>
             <p class="description">[Description]</p>
-            <p style="margin-bottom: 0;">Tags:</p>
+            <div class="content-caption">Safety Tags</div>
             <p class="tags">Prop Tags</p>
         </div>
 
         <div class="avatar-toolbar">
-            <div class="toolbar-btn button drop-btn">Drop</div>
-            <div class="toolbar-btn button select-btn">Select</div>
-            <div class="toolbar-btn button fav-btn">Favorite</div>
+            <div class="toolbar-btn button drop-btn"><img src="gfx/btn-join.svg">Drop</div>
+            <div class="toolbar-btn button select-btn"><img src="gfx/btn-props.svg">Select</div>
+            <div class="toolbar-btn button fav-btn"><img src="gfx/favorite.svg">Favorite</div>
         </div>
 
         <div class="favorite-category-selection">

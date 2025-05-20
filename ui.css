@@ -29,7 +29,7 @@ body {
     font-size: 32px;
     color: #dcdcdc;
 
-    text-shadow: 2px 2px 8px #000;
+    text-shadow: 2px 2px 8px #00000080;
 }
 
 h1 {
@@ -860,7 +860,7 @@ h1 {
     left: 1%;
 
     border-radius: 0.25em;
-    border: 3px solid #404040;
+    border: 0px solid #404040;
 }
 
 .content-world-instances .action-btn {
