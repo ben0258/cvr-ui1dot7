@@ -12,6 +12,7 @@
     --menu-opacity: 0.8;
     /* Malth is a nerd btw */
     --menu-bg-colour: 34, 34, 34;
+    /* Kebono is stinky too */
 }
 
 html {
@@ -2865,9 +2866,6 @@ h1 {
     width: 77%;
     height: 70%;
     left: 22%;
-
-    border-radius: 0.25em;
-    border: 3px solid #404040;
 }
 
 .avatar-toolbar {
@@ -2935,9 +2933,6 @@ h1 {
     width: 77%;
     height: 70%;
     left: 22%;
-
-    border-radius: 0.25em;
-    border: 3px solid #404040;
 }
 
 .prop-toolbar {
