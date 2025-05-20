@@ -87,34 +87,15 @@
                             <img src="gfx/btn-switch.svg">
                             Switch
                         </div>
-                        <div id="seatedPlayBtnHome" onclick="toogleSeatedPlay();"
-                             class="action-btn button action-seated">
-                            <img src="gfx/seated-play.svg">
-                            Seated
-                        </div>
-                        <!--<div id="recalibrateBtnHome" onclick="recalibrate();" class="action-btn">
-                                    <img src="gfx/recalibrate.svg">
-                                    Recalib</div>-->
-                        <div onclick="toggleFlight();" class="action-btn button action-flight">
-                            <img src="gfx/jetpack.svg">
-                            Flight
-                        </div>
-                    </div>
-                    <div class="btn-row-wrapper actions">
-                        <div onclick="respawn();" class="action-btn button">
-                            <img src="gfx/respawn.svg">
-                            Respawn
-                        </div>
-                        <div onclick="toogleCamera();" class="action-btn button action-camera">
-                            <img src="gfx/camera-off.svg">
-                            Cam On
-                        </div>
                         <div onclick="showAvatarSettings();" class="action-btn button">
                             <img src="gfx/advanced-avatar-settings.svg">
                             Adv Avtr
                         </div>
+                        <div onclick="TogglePortableMirror();" class="action-btn button action-mirror">
+							<img src="gfx/image.svg">
+						Mirror</div>
                     </div>
-                    <div class="btn-row-wrapper actions">
+                    <div id="empty-home-button-block" class="btn-row-wrapper actions">
                         <div onclick="OpenTTSKeyboard();" class="action-btn button action-tts">
                             <img src="gfx/btn-tts.svg">
                             TTS
@@ -124,16 +105,6 @@
                                 <img src="gfx/btn-lua.svg">
                                 LUA
                             </div>
-                        </div>
-
-                        <div onclick="TogglePortableMirror();" class="action-btn button action-mirror">
-							<img src="gfx/image.svg">
-							Mirror</div>
-                    </div>
-                    <div id="empty-home-button-block" class="btn-row-wrapper actions">
-                        <div class="action-btn button" style="visibility: hidden;">
-                            <img src="gfx/mouse.svg">
-                            Empty
                         </div>
                     </div>
 					<div class="content-caption">Panic Buttons</div>
