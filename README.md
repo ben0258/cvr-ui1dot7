@@ -5,7 +5,7 @@ A modification of CVR UI v1.5 with a focus on streamlining and consistency.
 ## Install
 Download the repository using the green Code button at the top of this page, and extract the contents to:
 
-`(CVR Directory)\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources\CVRTest`
+`(CVR Directory)\ChilloutVR_Data\StreamingAssets\Cohtml\UIResources`
 
 where CVR Directory is the location of your ChilloutVR installation. 
 
