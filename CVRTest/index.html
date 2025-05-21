@@ -96,7 +96,7 @@
 						Mirror</div>
                     </div>
                     <div id="empty-home-button-block" class="btn-row-wrapper actions">
-                        <div onclick="OpenTTSKeyboard();" class="action-btn button action-tts">
+                        <div onclick="OpenTTSKeyboard();" class="action-btn button">
                             <img src="gfx/btn-tts.svg">
                             TTS
                         </div>
@@ -3772,13 +3772,15 @@
         <h1>World: [worldName]</h1>
         <div class="close-btn button" onclick="closeDetailView(this)" data-viewid="world-detail">Back</div>
         <div class="content-world-information">
+            <div class="content-caption">World Information</div>
             <div class="scroll-content">
-                <div class="content-caption">Description</div>
-                <div class="cell-value data-description">[description]</div>
-                <div class="content-caption">World Information</div>
+                <div class="row-wrapper">
+                    <div class="cell-value data-description">[description]</div>
+                </div>                   
+                <div class="content-caption"></div>
                 <div class="row-wrapper">
                     <div class="cell-name">Name:</div>
-                    <div class="cell-value data-worldName">{worldName]</div>
+                    <div class="cell-value data-worldName">[worldName]</div>
                 </div>
                 <div class="row-wrapper world-fileSize">
                     <div class="cell-name">Size:</div>
@@ -4682,9 +4684,10 @@
     </div>
 
     <div class="toolbar">
+        <div class="toolbar-sep"></div>
         <div class="toolbar-btn button active tab_btn_home" onclick="changeTab('home', this);"><img src="gfx/nav-home.svg">Home</div>
         <div class="toolbar-btn button tab_btn_friends" onclick="changeTab('friends', this);"><img src="gfx/nav-friends.svg">Friends</div>
-	<div class="toolbar-btn button tab_btn_discover" onclick="changeTab('discover', this);"><img src="gfx/nav-missions.svg">Discover</div>
+	    <div class="toolbar-btn button tab_btn_discover" onclick="changeTab('discover', this);"><img src="gfx/nav-missions.svg">Discover</div>
         <div class="toolbar-btn button tab_btn_avatars" onclick="changeTab('avatars', this);"><img src="gfx/nav-avatars.svg">Avatars</div>
         <div class="toolbar-btn button tab_btn_worlds" onclick="changeTab('worlds', this);"><img src="gfx/nav-worlds.svg">Worlds</div>
         <div class="toolbar-btn button tab_btn_props" onclick="changeTab('props', this);"><img src="gfx/btn-props.svg">Props</div>
@@ -4695,7 +4698,8 @@
 		    <div class="toolbar-btn button tab_btn_messages" onclick="changeTab('messages', this);"><img src="gfx/nav-messages.svg"></div>
 	    	<div class="toolbar-btn button tab_btn_settings" onclick="changeTab('settings', this);"><img src="gfx/nav-settings.svg"></div>
 	    	<div class="toolbar-btn button tab_btn_exit" onclick="changeTab('exit', this);"><img src="gfx/nav-exit.svg"></div>
-  	    </div>      
+            <div class="toolbar-sep"></div> 
+        </div>     
 	</div>
 </div>
 
