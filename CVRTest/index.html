@@ -130,10 +130,10 @@
     <div id="friends" class="content hidden">
         <div class="list-filter">
             <h1>Friends</h1>
+            <div class="content-btn button first" onclick="filterContent('friends', '');">Show All Friends</div>
             <div class="scroll-content">
                 <div class="filter-content"></div>
             </div>
-            <div class="content-btn button first" onclick="filterContent('friends', '');">Reset Filters</div>
             <div class="content-btn button color-primary second" onclick="refreshFriends();">Refresh</div>
         </div>
         <div class="list-content">
@@ -159,8 +159,8 @@
             <div class="scroll-content">
                 <div class="filter-content"></div>
             </div>
-            <div class="content-btn button first" onclick="filterContent('avatars', '');">Reset Filters</div>
-            <div class="content-btn button color-primary second" onclick="refreshAvatars();">Refresh</div>
+            <!-- <div class="content-btn button first" onclick="filterContent('avatars', '');">Reset Filters</div> -->
+            <div class="content-btn button color-primary second" onclick="refreshAvatars();">Refresh List</div>
         </div>
         <div class="list-content">
             <div class="flex-list">
@@ -176,7 +176,7 @@
                 <div class="filter-content"></div>
             </div>
             <!--<div class="content-btn button first" onclick="filterContent('worlds', 'wrldactive');">Reset Filters</div>-->
-            <div class="content-btn button color-primary second" onclick="refreshWorlds();">Refresh</div>
+            <div class="content-btn button color-primary second" onclick="refreshWorlds();">Refresh List</div>
         </div>
         <div class="list-content" data-content-type="worlds">
             <div class="flex-list">
@@ -191,10 +191,10 @@
             <div class="scroll-content">
                 <div class="filter-content"></div>
             </div>
-            <div class="content-btn button color-secondary neg-one" onclick="DeletePropMode();">Enter Delete Mode</div>
-            <div class="content-btn button color-secondary zero" onclick="RemoveMyProps();">Remove All My Props</div>
-            <div class="content-btn button first" onclick="filterContent('props', '');">Reset Filters</div>
-            <div class="content-btn button color-primary second" onclick="refreshProps();">Refresh</div>
+            <div class="content-btn button color-secondary zero" onclick="DeletePropMode();">Enter Delete Mode</div>
+            <div class="content-btn button color-secondary first" onclick="RemoveMyProps();">Remove All My Props</div>
+            <!-- <div class="content-btn button first" onclick="filterContent('props', '');">Reset Filters</div> -->
+            <div class="content-btn button color-primary second" onclick="refreshProps();">Refresh List</div>
         </div>
         <div class="list-content">
             <div class="flex-list">
@@ -3665,8 +3665,8 @@
                     <div class="filter-option button data-filter-props" onclick="filterSearch('props');">Props <div class="result-count">0</div></div>
                 </div>
             </div>
-            <div class="content-btn button first" onclick="filterSearch('');">Reset Filters</div>
-            <div id="SearchRefreshButton" class="content-btn button color-primary second" onclick="refreshSearch();">Refresh</div>
+            <div class="content-btn button first" onclick="filterSearch('');">Show All Categories</div>
+            <div id="SearchRefreshButton" class="content-btn button color-primary second" onclick="refreshSearch();">Refresh Results</div>
         </div>
         <div class="list-content">
             <div id="searchResultsUsers">
@@ -4080,14 +4080,8 @@
                 <div class="tab-btn button" onclick="switchTab('#user-detail .tab-btn', '#user-detail .tab-content', '#user-detail .tab-content-props', this);">
                     Props<div class="active-overlay"></div>
                 </div>
-                <div class="tab-btn button disabled" onclick="">
-                    Badges<div class="active-overlay"></div>
-                </div>
                 <div class="tab-btn button" onclick="switchTab('#user-detail .tab-btn', '#user-detail .tab-content', '#user-detail .tab-content-groups', this);">
                     Groups<div class="active-overlay"></div>
-                </div>
-                <div class="tab-btn button disabled" onclick="">
-                    Feed<div class="active-overlay"></div>
                 </div>
             </div>
             <div class="tab-contents">

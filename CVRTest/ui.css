@@ -78,15 +78,6 @@ h1 {
     padding-top: 10px;
     text-align: center;
 }
-
-.color-primary {
-    background-color: #E43600;
-}
-
-.color-primary:hover {
-    background-color: #E43600;
-}
-
 /* Note: We are defining :hover and .active separately because :active:not(.active) isn't working, and to avoid using !important */
 
 .button:hover {
@@ -105,27 +96,9 @@ h1 {
     pointer-events: none;
 }
 
-.button.color-primary:hover {
-    background-color: #f56b40;
-}
-
-.button.color-primary.disabled:hover {
-    background: #3c3c3c;
-}
-
-.button.color-primary:active {
-    background-color: #be0b04;
-}
-
-.button.color-primary.active {
-    background-color: #f56b40;
-}
-
 #GeneralPlayerHeight {
     height: 2.5em;
 }
-
-
 
 .wrapper {
     position: absolute;
@@ -1584,8 +1557,8 @@ h1 {
 .tab-btn {
     border-radius: 0.25em 0.25em 0 0;
     border: 3px solid #404040;
-    width: 11.5%;
-    padding: 0.2em 0;
+    width: 20%;
+    padding: 0.5em 0;
     text-align: center;
     height: 2.1em;
     position: relative;
