@@ -1750,8 +1750,8 @@ h1 {
 .tab-content-activity .data-instancedetails {
     position: relative;
     width: inherit;
-    height: inherit;
-    margin-top: 1em;
+    height: 20%;
+    margin-top: 0.5em;
     text-align: center;
 }
 
@@ -3187,8 +3187,8 @@ td div {
 }
 
 .invite-request-btn {
-    font-size: 0.8em;
-    line-height: 1.700000em;
+    width: 50%;
+    text-align: center;
 }
 
 #settings .filter-option {

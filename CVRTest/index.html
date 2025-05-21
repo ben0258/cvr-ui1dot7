@@ -4098,7 +4098,7 @@
                             <h2>[World Name]</h2>
                             <div class="row-wrapper">
                                 <div class="cell-name">Mode: </div>
-                                <div class="cell-value data-gamemode">[gameMode]</div>
+                                <div class="cell-value data-gamemode">[instanceType]</div>
                             </div>
                             <div class="row-wrapper">
                                 <div class="cell-name">Max players: </div>
@@ -4109,6 +4109,7 @@
                                 <div class="cell-value data-currplayers">[currPlayers]</div>
                             </div>
                             <div class="action-btn button data-instancedetails">Instance Details</div>
+                            <div class="action-btn button data-instancedetails join-btn">Join</div>
                         </div>
                         <div class="player-instance-rules">[InstanceRules]</div>
                         <div class="player-instance-players">
@@ -4137,6 +4138,7 @@
                             <img src="gfx\attention.svg">
                             <div>
                                 The User is online in a private instance
+                                <div class="action-btn button invite-request-btn">Request Invite</div>
                             </div>
                         </div>
                     </div>
@@ -4272,12 +4274,12 @@
             <div class="toolbar-btn button friend-btn"><img src="gfx/friend.svg">Add Friend</div>
             <div class="toolbar-btn button fav-btn"><img src="gfx/favorite.svg">Favorite</div>
             <div class="toolbar-btn button volume-btn" onclick="showUserSettings();"><img src="gfx/nav-settings.svg">Settings</div>
-            <div class="toolbar-btn button join-btn"><img src="gfx/btn-join.svg">Join</div>
             <div class="toolbar-btn button invite-btn"><img src="gfx/invite.svg">Invite</div>
-            <div class="toolbar-btn button invite-request-btn"><img src="gfx/invite-request.svg">Request Invite</div>
-            <div class="toolbar-btn button kick-btn"><img src="gfx/btn-kick.svg">Kick</div>
-            <div class="toolbar-btn button block-btn"><img src="gfx/block.svg">Block</div>
-            <div class="toolbar-btn button vote-btn"><img src="gfx/nav-mod-tools.svg">Vote Kick</div>
+            <div class="sub-toolbar">
+                <div class="toolbar-btn button kick-btn"><img src="gfx/btn-kick.svg"></div>
+                <div class="toolbar-btn button block-btn"><img src="gfx/block.svg"></div>
+                <div class="toolbar-btn button vote-btn"><img src="gfx/nav-mod-tools.svg"></div>
+            </div>    
         </div>
 
         <div class="favorite-category-selection" style="z-index: 10;">
@@ -4438,7 +4440,6 @@
             <div class="toolbar-btn button fav-btn"><img src="gfx/favorite.svg">Favorite</div>
             <div class="toolbar-btn button join-btn"><img src="gfx/btn-join.svg">Join</div>
             <div class="toolbar-btn button invite-btn"><img src="gfx/invite.svg">Invite</div>
-            <div class="toolbar-btn button invite-request-btn"><img src="gfx/invite-request.svg">Request Invite</div>
             <div class="toolbar-btn button kick-btn"><img src="gfx/btn-kick.svg">Kick</div>
             <div class="toolbar-btn button block-btn"><img src="gfx/block.svg">Block</div>
             <div class="toolbar-btn button vote-btn"><img src="gfx/nav-mod-tools.svg">Vote Kick</div>-->
