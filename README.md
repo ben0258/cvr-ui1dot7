@@ -1,5 +1,5 @@
 # ChilloutVR Unofficial UI 1.7
-![preview](https://github.com/user-attachments/assets/e933f973-e051-46c4-b1d9-9a176d11f9bf)
+![Main Menu preview image](https://github.com/user-attachments/assets/4255c317-7c20-4678-a424-9cded5ce533b)
 A modification of CVR UI v1.5 with a focus on streamlining and consistency.
 
 ## Install
