@@ -1375,6 +1375,7 @@ h1 {
 
     border-radius: 0.25em;
     border: 3px solid #404040;
+    
 }
 .content-instance-players .instancePlayer {
     display: flex;
@@ -1418,10 +1419,6 @@ h1 {
 
 .content-list-pagination .previous-page {
     transform: rotate(180deg);
-}
-
-.content-list-pagination .next-page {
-
 }
 
 .content-list-pagination .disabled {
@@ -1771,6 +1768,10 @@ h1 {
     height: 4em;
     margin-right: 1em;
     margin-bottom: 0.5em;
+    mask-image: url("gfx/HexagonMask.svg");
+    mask-size: contain;
+    mask-position: center;
+    align-self: center;
 }
 .player-instance-players .instancePlayer .instancePlayerName {
     flex: 1;
