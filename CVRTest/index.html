@@ -399,7 +399,7 @@
                     <div class="option-caption">Home Instance Privacy:</div>
                     <div class="option-input">
                         <div id="HomeInstanceCreationSettingPrivacy" class="inp_dropdown no-scroll"
-                             data-options="Public,FriendsOfFriends,Friends,EveryoneCanInvite,OwnerMustInvite" data-current="OwnerMustInvite"
+                             data-options="Public,FriendsOfFriends,Friends,EveryoneCanInvite,OwnerMustInvite,Offline" data-current="OwnerMustInvite"
                              data-saveOnChange="true"></div>
                     </div>
                 </div>
@@ -551,7 +551,7 @@
                     <div class="option-caption">Menu Opacity:</div>
                     <div class="option-input">
                         <div id="GraphicsUIOpacity" class="inp_slider no-scroll" data-format="{value}%" data-min="20" data-max="100"
-                             data-current="80" data-saveOnChange="true" data-continuousUpdate="true"></div>
+                             data-current="90" data-saveOnChange="true" data-continuousUpdate="true"></div>
                     </div>
                 </div>
 
@@ -2694,9 +2694,14 @@
                 </div>
 
                 <div class="row-wrapper" platform-specific="pc">
-                    <div style="display: inline;" class="option-caption">Deep Link Status: <span id="DeepLinkIsInstalled">Disabled via Launch Arg</span></div>
+                    <div style="display: inline;" class="option-caption">Deep Link Status:</div>
                     <div class="content-btn button" onclick="TriggerDeepLinkInstallPrompt()">Enable/Update</div>
                 </div>
+
+                <div class="row-wrapper" platform-specific="pc">
+                    <span id="DeepLinkIsInstalled">Disabled via Launch Arg</span>
+                </div>
+
             </div>
 
             <div id="settings-ik" class="settings-categorie">
